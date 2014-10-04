@@ -1,0 +1,4 @@
+#!/bin/sh
+
+D=${1%/}
+shar `find $D` > $D.shar
