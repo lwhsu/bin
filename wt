@@ -1,0 +1,19 @@
+#!/bin/sh
+
+ZONES="
+Asia/Taipei
+GMT
+America/Chicago
+America/Los_Angeles
+America/Denver
+America/New_York
+America/Toronto
+America/Vancouver
+Europe/London
+Europe/Paris
+"
+
+for tz in ${ZONES}; do
+        echo "$tz"
+        echo "       $(TZ=$tz date)"
+done
