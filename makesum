@@ -1,0 +1,7 @@
+#!/bin/sh
+
+FILE=$1
+OUTPUT=checksum.txt
+
+sha256 "${FILE}" >> "${OUTPUT}"
+echo "SIZE (${FILE}) = $(stat -f %z "${FILE}")" >> "${OUTPUT}"
