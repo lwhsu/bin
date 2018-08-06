@@ -2,6 +2,7 @@
 
 ZONES="
 Asia/Taipei
+Asia/Tokyo
 GMT
 America/Chicago
 America/Los_Angeles
