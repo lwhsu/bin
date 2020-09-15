@@ -2,4 +2,4 @@
 
 FILE=$1
 
-echo `hostname -f`:`realpath $1`
+echo ${USER}@`hostname -f`:`realpath $1`
