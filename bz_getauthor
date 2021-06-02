@@ -1,0 +1,3 @@
+#!/bin/sh
+
+bugzilla query --full --json -b $1 | jq -r '.bugs[0].creator_detail | .real_name + " <" + .email + ">"'
