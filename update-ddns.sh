@@ -2,9 +2,9 @@
 
 set -e
 
-key=""
-
-hostname=""
+. update-ddns.conf
+#key=""
+#hostname=""
 
 ifnames="lagg0 ue0 wlan0"
 
