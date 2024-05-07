@@ -1,0 +1,4 @@
+key=""
+hostname=""
+
+ifnames="lagg0 ue0 wlan0"

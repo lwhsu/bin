@@ -5,8 +5,7 @@ set -e
 . update-ddns.conf
 #key=""
 #hostname=""
-
-ifnames="lagg0 ue0 wlan0"
+#ifnames=""
 
 if [ -n "$1" ]; then
 	ifnames=$1
